@@ -130,8 +130,8 @@
             @include('partials.menu')
     
             <div class="page-wrapper">
-    
-                @include('partials.breadcrumb')
+
+                <breadcrumb-component></breadcrumb-component>
     
                 <div class="container-fluid">
                   {{-- @yield('content') --}}
