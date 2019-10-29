@@ -180,7 +180,20 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
+            Echo.channel('massage')
+                .listen('NewMassage', (e) => {
+                    console.log(e);
+                });
+            Echo.join(`dashboard`)
+                .here((users) => {
+                    console.log(users);
+                })
+                .joining((user) => {
+                    console.log(user.name);
+                })
+                .leaving((user) => {
+                    console.log(user.name);
+                });
         }
     }
 </script>
