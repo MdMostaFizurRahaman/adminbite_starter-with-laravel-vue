@@ -16439,7 +16439,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\saidul\xampp\htdocs\lara-pos\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\saidul\xampp\htdocs\EasyHR\resources\js\app.js */"./resources/js/app.js");
 
 
 /***/ })
